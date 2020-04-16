@@ -33,16 +33,16 @@ function HomePage() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@_dte" />
-        <meta property="og:title" content="Daniel Eden &mdash; Photography" />
+        <meta name="twitter:site" content="@_spacec0wboy" />
+        <meta property="og:title" content="Trip to Rome, Italy: Diego Peralta &mdash;  Photography" />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://dephotos.imgix.net/00013.jpg?auto=format&dpr=2&fm=pjpg&crop=faces&fit=max&w=1&h=900"
+          content="https://diego-media-rome.imgix.net/images/IMG_4256.jpg?auto=format&dpr=2&fm=pjpg&crop=faces&fit=max&w=1&h=900"
         />
         <meta property="og:description" content={siteInfo.description} />
 
-        <link rel="preconnect" href="https://dephotos.imgix.net" />
+        <link rel="preconnect" href="https://diego-media-rome.imgix.net" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           href="https://fonts.googleapis.com/css?family=Work+Sans:500&display=swap&subset=latin-ext"

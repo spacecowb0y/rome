@@ -46,13 +46,11 @@ let logData = exifData => {
 
     const info = {
       aspectRatio,
-      camera: CAMERAS[datum.Make],
+      camera: datum.Model,
       fStop: datum.FNumber || 16,
       fileName: datum.FileName,
       // I only have one manual lens, but this ternary is a hacky workaround.
-      focalLength: datum.FocalLength
-        ? datum.FocalLength.replace(" ", "")
-        : "12mm",
+      focalLength: datum.FocalLength,
       iso: datum.ISO,
       shutterSpeed: String(datum.ShutterSpeed),
       description: datum.Description || "",
